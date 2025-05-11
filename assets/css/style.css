@@ -415,3 +415,80 @@ a {
 .popular .course-item .btn-book:hover {
   background: var(--primary-color);
 }
+
+/* ================ FEED BACK ================== */
+
+.feed-back {
+  padding: 96px 0;
+  margin-top: 65px;
+  background-color: #2e2100;
+}
+.feed-back .main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* left */
+.feed-back .member-info .avatar {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feed-back .member-info .member-name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42; /* 141.667% */
+}
+
+.feed-back .member-info .member-title {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+
+.feed-back .member-info .dots {
+  display: flex;
+  margin-top: 28px;
+  gap: 6px;
+}
+
+.feed-back .member-info .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+
+.feed-back .dot.active {
+  background: var(--primary-color);
+  cursor: default;
+}
+
+.feed-back .member-info .dot:hover {
+  background: var(--primary-color);
+}
+
+/* right */
+.feed-back .quote {
+  width: 66%;
+}
+
+.feed-back .quote .open-quote {
+  width: 30px;
+  height: 28px;
+}
+
+.feed-back .quote .quote-block {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.54; /* 153.846% */
+  padding: 0 0 0 30px;
+}
