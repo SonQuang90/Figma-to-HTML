@@ -423,9 +423,21 @@ a {
   margin-top: 65px;
   background-color: #2e2100;
 }
-.feed-back .main-content {
+
+.feed-back .feedback-item {
   display: flex;
   justify-content: space-between;
+}
+
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
 }
 
 /* left */
